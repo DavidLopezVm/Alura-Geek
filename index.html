@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><img src="img/logo.png" alt="Logo AluraGeek" ></li>
+                <li><a href="#about">Sobre nosotros</a></li>
+                <li><a href="#products">Productos</a></li>
+                <li><a href="#cart">Carrito (<span id="cartCount">0</span>)</a></li> <!-- Indicador de carrito -->
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <div class="about-content">
+            <img src="img/marvel.png" alt="Imagen de perfil" class="profile-image">
+            <div class="about-text">
+                <h1>Sobre nosotros</h1>
+                <p><strong>Bienvenido a Alura Geek, tu destino definitivo para lo mejor en tecnología y moda geek.</strong>
+
+                    Explora un universo de productos innovadores que fusionan lo último en tecnología con el estilo más audaz. Desde dispositivos electrónicos de vanguardia hasta prendas de vestir que capturan la esencia de tu fandom favorito, en Alura Geek te ofrecemos una selección meticulosamente curada que combina lo práctico con lo extraordinario.
+                    
+                    <p>Descubre nuestra colección:</p>
+                    <ol>
+                        <li>
+                            <strong>Electrónica Avanzada:</strong> Desde gadgets inteligentes hasta dispositivos de última generación, nuestra sección de electrónica te lleva al futuro con cada clic. ¿Buscas mejorar tu setup de gaming o encontrar el regalo perfecto para el tech lover en tu vida? No busques más.
+                        </li>
+                        <li>
+                            <strong>Moda Geek:</strong> Sumérgete en el estilo con nuestra gama de ropa y accesorios inspirados en tus películas, series y juegos favoritos. Desde camisetas con diseños exclusivos hasta sudaderas que desafían la norma, cada artículo está diseñado para expresar tu pasión por la cultura geek.
+                        </li>
+                        <li>
+                            <strong>Accesorios Esenciales:</strong> Completa tu experiencia geek con nuestra selección de accesorios imprescindibles. Desde fundas para dispositivos hasta artículos de decoración para tu espacio geek, cada detalle está diseñado para mejorar tu estilo de vida tecnológico.
+                        </li>
+                        <li>
+                            <strong>Compra con Confianza:</strong> En Alura Geek, no solo te ofrecemos productos excepcionales, sino también una experiencia de compra sin complicaciones. Con nuestra garantía de calidad y atención al cliente excepcional, tu satisfacción está garantizada
+                        </li>
+                       
+                    </ol>
+
+
+
+
+
+            </div>
+        </div>
+    </section>
+
+    <section id="products">
+        <h1>Productos</h1>
+        <div id="product-list" class="product-list">
+            <!-- Los productos se cargarán aquí -->
+        </div>
+    </section>
+
+    <section id="cart">
+        <h1>Carrito</h1>
+        <form id="cartForm">
+            <input type="text" id="producto" name="producto" placeholder="Producto a ordenar">
+            <input type="number" id="cantidad" name="cantidad" placeholder="Cantidad">
+            <button type="submit">Agregar al carrito</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 David Jesús Moreno López. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
